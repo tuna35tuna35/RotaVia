@@ -1,0 +1,136 @@
+{
+  "guncelleme": "2026-10-17",
+  "sehirler": [
+    {
+      "ad": "İstanbul",
+      "kartAdi": "İstanbulkart",
+      "araclar": ["Metro", "Metrobüs", "Marmaray", "Tramvay", "Füniküler / Teleferik", "İETT Otobüs", "Vapur / Deniz Otobüsü", "Minibüs / Dolmuş", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 46.20},
+        {"ad": "Öğrenci", "ucret": 22.55},
+        {"ad": "Öğretmen / 60 yaş üstü (Sosyal)", "ucret": 33.10, "tahmini": true},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 60, "km": 52, "tahmini": true}
+    },
+    {
+      "ad": "Ankara",
+      "kartAdi": "Başkent Kart",
+      "araclar": ["Metro", "Ankaray", "Başkentray", "EGO Otobüs", "Teleferik", "Minibüs / Dolmuş", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 40},
+        {"ad": "Öğrenci", "ucret": 20},
+        {"ad": "Öğretmen", "ucret": 30},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 45, "km": 48, "tahmini": true}
+    },
+    {
+      "ad": "İzmir",
+      "kartAdi": "İzmirim Kart",
+      "araclar": ["Metro", "İZBAN", "Tramvay", "ESHOT Otobüs", "Vapur", "Dolmuş", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 40},
+        {"ad": "Genç (7-26 yaş)", "ucret": 16.50},
+        {"ad": "Öğretmen", "ucret": 29.50},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 34.50, "km": 49.50}
+    },
+    {
+      "ad": "Bursa",
+      "kartAdi": "BursaKart",
+      "araclar": ["BursaRay (Metro)", "Tramvay", "Otobüs", "BUDO Deniz Otobüsü", "Dolmuş", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 50},
+        {"ad": "Öğrenci", "ucret": 12.50},
+        {"ad": "İndirimli", "ucret": 44.50, "tahmini": true},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 40, "km": 45, "tahmini": true}
+    },
+    {
+      "ad": "Antalya",
+      "kartAdi": "AntalyaKart",
+      "araclar": ["Antray (Tramvay)", "Otobüs", "Dolmuş / Minibüs", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 42},
+        {"ad": "İndirimli (Öğretmen / Emekli)", "ucret": 40},
+        {"ad": "Öğrenci", "ucret": 20},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 40, "km": 55, "tahmini": true}
+    },
+    {
+      "ad": "Konya",
+      "kartAdi": "Konyakart",
+      "araclar": ["Tramvay", "Otobüs", "Dolmuş / Minibüs", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 22.50},
+        {"ad": "Öğrenci", "ucret": 9},
+        {"ad": "Öğretmen / İndirimli", "ucret": 18, "tahmini": true},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 35, "km": 40, "tahmini": true}
+    },
+    {
+      "ad": "Adana",
+      "kartAdi": "Adana Kart",
+      "araclar": ["Metro", "Otobüs", "Dolmuş / Minibüs", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 42, "tahmini": true},
+        {"ad": "Öğrenci", "ucret": 21, "tahmini": true},
+        {"ad": "Öğretmen", "ucret": 36, "tahmini": true},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 35, "km": 42, "tahmini": true}
+    },
+    {
+      "ad": "Şanlıurfa",
+      "kartAdi": "Urfa Kart",
+      "araclar": ["Otobüs", "Dolmuş / Minibüs", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 25},
+        {"ad": "Öğrenci", "ucret": 15},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 32, "km": 38, "tahmini": true}
+    },
+    {
+      "ad": "Gaziantep",
+      "kartAdi": "Gaziantep Kart",
+      "araclar": ["Gaziray", "Tramvay", "Otobüs", "Minibüs", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 30, "tahmini": true},
+        {"ad": "Öğrenci", "ucret": 14, "tahmini": true},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 36, "km": 41, "tahmini": true}
+    },
+    {
+      "ad": "Kocaeli",
+      "kartAdi": "Kocaeli Kart",
+      "araclar": ["Tramvay", "Otobüs", "Minibüs", "Taksi"],
+      "kartlar": [
+        {"ad": "Tam", "ucret": 35, "tahmini": true},
+        {"ad": "İndirimli (Öğrenci / Öğretmen)", "ucret": 25, "tahmini": true},
+        {"ad": "65 yaş üstü", "ucret": 0},
+        {"ad": "Engelli", "ucret": 0}
+      ],
+      "taksi": {"acilis": 42, "km": 46, "tahmini": true}
+    }
+  ],
+  "sehirlerarasi": {
+    "araclar": ["Şehirlerarası otobüs", "Hızlı tren (YHT)", "Ana hat treni", "Uçak", "Deniz otobüsü / Feribot"],
+    "kartlar": ["Tam", "Öğrenci", "Öğretmen", "65 yaş üstü", "Engelli"]
+  }
+}
